@@ -1,4 +1,4 @@
-# py-food-database
+# py-food-database-mariadb
 
 A simple MariaDB importer for FoodData Central db files.
 
@@ -13,7 +13,7 @@ A simple MariaDB importer for FoodData Central db files.
 Download [this file](https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2022-10-28.zip) and put all the `.csv` files inside the zip file just downloaded in a folder called `files/` on the root of the project's directory. Then,
 
 ```bash
-python3 -m pip istall virtualenv
+python3 -m pip install virtualenv
 python3 -m virtualenv venv
 source ./venv/bin/activate
 python main.py
